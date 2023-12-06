@@ -131,7 +131,6 @@ NOTE: you can only choose Fosc/64, 32, 16, 8, 4, 2.
 [Tutorial PDF](MAPP_Tutorial_4.pdf)
 Q4 C Code qn:
 **DO NOT use SHIFT! Because 8 bits, will make result 0. Use \*256. **
-CHECK!!!!!!!!!
 ```c
 int main(void) {
 	ADCON0 = 0b00/**/0000/**/01;
