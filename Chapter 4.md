@@ -22,10 +22,8 @@
 - Acquisition time: time in which analogue input voltage is sampled and held
 - V<sub>in</sub> remains unchanged although V<sub>a</sub> varies.
 
-This is an IMPORTANT formula!
-$$
-Digital result = (Vin - Vref)/(Vref_+ - Vref_-) * (2**10-1)
-$$
+This is an important formula!
+$Digital result = (Vin - Vref)/(Vref_+ - Vref_-) * (2^{10}-1)$
 
 
 MINUS ONE!!!!!
